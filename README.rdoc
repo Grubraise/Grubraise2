@@ -1,0 +1,44 @@
+== Welcome to Grubraise
+
+This is the Grubraise Help File. I will start using this help file to update
+my progress.
+
+== Progress:
+
+We will no longer have to sign up directly in the site to have admin power. Just
+go to sitename/admin to access the admin page. Just type in user name and password.
+
+This stage is very buggy as I am completely changing over the code to be more
+flexible and apt to change as we change. 
+
+I changed the way the application handles static pages. It no longer needs a new 
+controller for every static page. All static pages will be handled in the grubraise
+folder.
+
+
+== To-Do: October 31, 2012
+
+1. [Done] Create a Role model:
+  
+  The role model is going to assign a title to every user in the database. 
+
+1. [Done] Update the user file
+
+  The goal of the user file is to create a very flexible model that can change 
+  based on any role created by the team. Today's update is just a matter of 
+  connecting the user and the role model.
+
+3. [Ongoing] Add more views to active admin
+
+  This will be an ongoing assignment. Active admin allows me to have a decent of
+  control over my application without having to spend much time creating and maintaing
+  an admin view. This is valuable time i can spend
+
+== To-Do: November 1, 2012 (More To Come)
+
+1. Divide the users into subcategories so they can be manipulated more efficiently
+
+2. Find a good approach to multitable inheritance
+  Every time I conceptualize a project my mind is trained to think in an object oriented
+  form. I am trying to figure out a way I can incorporatew inheritance to the subcategories
+  I am going to create from users while being able to add new fields(or columns) to the object.

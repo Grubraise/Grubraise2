@@ -1,0 +1,3 @@
+class SchoolAffiliate < User
+	
+end
