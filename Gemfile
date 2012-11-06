@@ -11,6 +11,8 @@ gem 'sqlite3'
 # Gemfile in Rails >= 3.1
 gem 'activeadmin'
 
+gem 'devise'
+
 
 
 # Gems used only for assets and not required
@@ -41,5 +43,4 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-
-gem 'simple_form'
+gem 'wicked'

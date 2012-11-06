@@ -36,9 +36,13 @@ folder.
 
 == To-Do: November 1, 2012 (More To Come)
 
-1. Divide the users into subcategories so they can be manipulated more efficiently
+1. [Ongoing]Divide the users into subcategories so they can be manipulated more efficiently
+    For now I am going to divide it into SchoolAffiliates ands RestuarantAffiliates.
+    This allows me to run the forms on separate type of users. 
 
-2. Find a good approach to multitable inheritance
+2. [Cancelled]Find a good approach to multitable inheritance
   Every time I conceptualize a project my mind is trained to think in an object oriented
   form. I am trying to figure out a way I can incorporatew inheritance to the subcategories
   I am going to create from users while being able to add new fields(or columns) to the object.
+
+3. Passing variable through links handled in a database
