@@ -8,7 +8,6 @@ class GrubraiseController < ApplicationController
 	def show
     	@page_name = params[:page_name].to_s.gsub(/\W/,'')
     	unless partial_exists?(@page_name)
-      		#render 'missing', :status => 404
       		raise ActionController::RoutingError.new('Not Found')
     	end
  	end

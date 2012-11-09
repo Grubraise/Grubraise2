@@ -14,16 +14,12 @@ Grubraise::Application.routes.draw do
 
 get "sessions/new"
 
-get 'signup', to:  "school_parents#new", as: 'signup'
+#get 'signup', to:  "school_parents#new", as: 'signup'
 #get 'login', to: 'sessions#new', as: 'login'
 #get 'logout', to: 'sessions#destroy', as: 'logout'
 get 'restuarant.html', to: 'restuarants#new', as: 'restaurant'
-get 'ptas.html', to: 'ptos#index', as: 'ptas'
 get 'restaurants', to: 'restuarants#index', as: 'restaurants'
 get 'index', to: 'grubraise#index', as: 'index'
-get 'resthanks', to: 'resthanks#new', as: 'resthanks'
-get '/ptos/create', to: 'ptos#create', as: 'create'
-get 'privacy', to: 'Privacy.html', as: 'privacy' 
 
 root to: 'grubraise#index'
 resources :sessions

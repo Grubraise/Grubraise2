@@ -3,7 +3,36 @@
 This is the Grubraise Help File. I will start using this help file to update
 my progress.
 
-== Progress:
+
+== Progress: November 09, 2012
+
+For now I am going to use the user class to handle very user. Eventually I will 
+implement multi-table inheritance. This simple solution is easy enough to change in the
+future.
+
+From now on I will also start using the rails best practice of test driven development.
+I come from C based programming world where I did most of my debugging after building and
+testing a specific function. I am really excited to start using test driven development.
+
+== To-Do: November 09, 2012
+
+1. [Done] Create a Role model:
+  
+  The role model is going to assign a title to every user in the database. 
+
+1. [Done] Update the user file
+
+  The goal of the user file is to create a very flexible model that can change 
+  based on any role created by the team. Today's update is just a matter of 
+  connecting the user and the role model.
+
+3. [Ongoing] Add more views to active admin
+
+  This will be an ongoing assignment. Active admin allows me to have a decent of
+  control over my application without having to spend much time creating and maintaing
+  an admin view. This is valuable time i can spend
+
+== Progress: October 31, 2012
 
 We will no longer have to sign up directly in the site to have admin power. Just
 go to sitename/admin to access the admin page. Just type in user name and password.
