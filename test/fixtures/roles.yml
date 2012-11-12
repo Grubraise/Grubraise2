@@ -1,9 +1,21 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  name: MyString
-  description: MyString
+parent:
+  id: 1
+  name: "Parent"
+  description: ""
 
-two:
-  name: MyString
-  description: MyString
+teacher:
+  id: 2
+  name: "Teacher"
+  description: ""
+
+friend:
+  id: 3
+  name: "Friend"
+  description: ""
+
+pta:
+  id: 4
+  name: "PTA"
+  description: ""

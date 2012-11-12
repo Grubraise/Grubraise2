@@ -7,7 +7,8 @@ def new
 end
 
 def create
-  @user = User.new(params[:user])
+  @user = User.new(params[:user].merge(:password => "default", :password_confirmation => "default"))
+  #@user = User.new(p)
   if @user.save
     #session[:user_id] = @user.id
     redirect_to '/thanks.html', notice: "Thank you for signing up!"

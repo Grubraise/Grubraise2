@@ -6,7 +6,7 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-gem 'pg'
+gem 'sqlite3'
 
 # Gemfile in Rails >= 3.1
 gem 'activeadmin'
@@ -26,6 +26,13 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
+ group :test do
+   gem 'shoulda'
+   gem 'capybara'
+   gem 'guard-test'
+   gem 'factory_girl_rails'
+ end
 
 gem 'jquery-rails'
 
