@@ -11,7 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20121112042640) do
+=======
+ActiveRecord::Schema.define(:version => 20121106065316) do
+>>>>>>> ae9e3170c2598ab51cb2531e85f4178a12654188
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -71,8 +75,13 @@ ActiveRecord::Schema.define(:version => 20121112042640) do
   end
 
   create_table "users", :force => true do |t|
+<<<<<<< HEAD
     t.string   "email",                  :default => "",    :null => false
     t.string   "encrypted_password",     :default => "",    :null => false
+=======
+    t.string   "email",                  :default => "", :null => false
+    t.string   "encrypted_password",     :default => "", :null => false
+>>>>>>> ae9e3170c2598ab51cb2531e85f4178a12654188
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
@@ -81,12 +90,20 @@ ActiveRecord::Schema.define(:version => 20121112042640) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
+<<<<<<< HEAD
     t.datetime "created_at",                                :null => false
     t.datetime "updated_at",                                :null => false
     t.integer  "role_id"
     t.string   "school"
     t.string   "name"
     t.boolean  "is_signup",              :default => false
+=======
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
+    t.integer  "role_id"
+    t.string   "school"
+    t.string   "name"
+>>>>>>> ae9e3170c2598ab51cb2531e85f4178a12654188
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

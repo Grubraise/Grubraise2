@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
+<<<<<<< HEAD
 
   
   # test "the truth" do
@@ -25,4 +26,9 @@ class UserTest < ActiveSupport::TestCase
   end
 
 
+=======
+  # test "the truth" do
+  #   assert true
+  # end
+>>>>>>> ae9e3170c2598ab51cb2531e85f4178a12654188
 end

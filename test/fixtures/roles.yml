@@ -1,5 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
+<<<<<<< HEAD
 parent:
   id: 1
   name: "Parent"
@@ -19,3 +20,12 @@ pta:
   id: 4
   name: "PTA"
   description: ""
+=======
+one:
+  name: MyString
+  description: MyString
+
+two:
+  name: MyString
+  description: MyString
+>>>>>>> ae9e3170c2598ab51cb2531e85f4178a12654188

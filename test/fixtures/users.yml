@@ -4,6 +4,7 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
+<<<<<<< HEAD
 parent1:
   id: 1
   name: "JANE"
@@ -12,3 +13,10 @@ parent1:
   school: "J High" 
 # column: value
 #
+=======
+one: {}
+# column: value
+#
+two: {}
+#  column: value
+>>>>>>> ae9e3170c2598ab51cb2531e85f4178a12654188
