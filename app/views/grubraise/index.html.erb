@@ -1,0 +1,25 @@
+<nav>
+<ol>
+<a href="index.html"><li class="selected">Raise Money</li></a>
+<a href="help.html"><li class="">How Does it Work?</li></a>
+<a href="restuarant.html"><li class="">Restaurants</li></a>
+</ol>
+</nav>
+</header>
+<% @title="Home" %>
+
+<section id="main">
+		<!-- / Splash Image -->
+<span class="nowrap"><h1>Eat out to support your local schools</h1></span>
+<img src="assets/diagram_HD.png" alt="chart"/>
+		<!-- / Sidebar -->
+<aside>
+<h3>Fundraise over Meals</h3>
+<div id="subheader">If you are in charge of fundraising for your school, please enter your contact information below.  We will be in touch soon. </div>
+							
+<%= render 'form' %>
+
+<p class="terms">By clicking 'Start Raising' you agree to the <a href="tos.html" onclick="window.open(this.href);return false;">Terms and Conditions</a> and <a href="privacy.html" onclick="window.open(this.href);return false;">Privacy Policy</a></p>
+</aside>
+<div class="clearfix"></div>
+</section>

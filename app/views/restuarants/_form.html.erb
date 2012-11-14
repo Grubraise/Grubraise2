@@ -1,0 +1,37 @@
+<div class="restaurant_form_error">
+              <ol>
+              <li><label for="restuarant_restuarant_name" class="error">Restaurant Name cannot be blank</label></li>
+              <li><label for="restuarant_owner_name" class="error">Owner Name cannot be blank.</label></li>
+              <li><label for="restuarant_email" class="error">Email is not a valid email address.</label></li>
+              </ol>
+              </div>
+              <form action="/restuarants" id="restaurant_valid_form" method="post">
+              <fieldset>
+              <div class="field">
+              <label for="restuarant_restuarant__name">Restaurant Name:</label>
+              <input id="restuarant_restuarant__name" name="restuarant[restuarant_name]" class="{validate:{required:true}}" size="30" value="" type="text" />
+              </div>
+              <div class="clearfix"></div>
+              <div class="field">
+              <label for="restuarant_owner_name">Owner Name:</label>
+              <input id="restuarant_owner_name" name="restuarant[owner_name]" class="{validate:{required:true}}" value="" size="30" type="text" />
+              </div>
+              <div class="clearfix"></div>
+              <div class="field">
+              <label for="restuarant_email">Email:</label>
+              <input id="restuarant_email"  name="restuarant[email]" class="{validate:{required:true,email:true}}" value="" size="30" type="text" />
+              </div>
+              <div class="clearfix"></div>
+              <div class="field">
+              <label for="restuarant_phone_number">Phone:</label>
+              <input id="restuarant_phone_number" name="restuarant[phone_number]" class="" size="30" value="" type="text" />
+              </div>
+              <div class="clearfix"></div>
+              <div class="field">
+              <label for="restuarant_message">Message:</label>
+              <textarea id="restuarant_message" name="restuarant[message]" rows="12" cols="40" value="" type="text"></textarea>
+              </div>
+              <div class="clearfix"></div>
+              <input type="submit" value="Submit" class="submit btn"/>                
+              </fieldset>
+              </form> 

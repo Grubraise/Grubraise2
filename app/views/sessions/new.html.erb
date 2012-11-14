@@ -1,0 +1,26 @@
+<nav>
+<ol>
+<a href="index.html"><li class="">Raise Money</li></a>
+<a href="help.html"><li class="">How Does it Work?</li></a>
+<a href="restuarant.html"><li class="">Restaurants</li></a>
+</ol>
+</nav>
+</header>
+<section id="main">
+  <div id="restaurant_form">
+ <h2> Login </h2>
+
+<%= form_tag sessions_path do %>
+  <div class="field">
+    <%= label_tag :email %>
+    <%= text_field_tag :email, params[:email] %>
+  </div>
+  <div class="field">
+    <%= label_tag :password %>
+    <%= password_field_tag :password %>
+  </div>
+  <div class="actions"><%= submit_tag "Log In" %></div>
+<% end %>
+</div>
+</session>
+</section>
